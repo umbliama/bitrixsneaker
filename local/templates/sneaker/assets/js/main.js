@@ -1,3 +1,5 @@
+console.log("maijs");
+
 let gallery = new Swiper(".header__slider ", {
   // Optional parameters
   direction: "horizontal",

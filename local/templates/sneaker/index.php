@@ -172,28 +172,28 @@
                 <div class="swiper-slide">
                   <img
                     class="product__slider-img--big"
-                    src="./images/product__photo-big.png"
+                    src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-big.png"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="product__slider-img--big"
-                    src="./images/product__photo-big2.png"
+                    src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-big2.png"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="product__slider-img--big"
-                    src="./images/product__photo-big3.png"
+                    src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-big3.png"
                     alt=""
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="product__slider-img--big"
-                    src="./images/product__photo-big4.png"
+                    src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-big4.png"
                     alt=""
                   />
                 </div>
@@ -203,22 +203,7 @@
             <div class="product__thumbs">
               <img
                 class="product__slider-img--small js-productImgSmall"
-                src="./images/product__photo-small1.png"
-                alt=""
-              />
-              <img
-                class="product__slider-img--small js-productImgSmall"
-                src="./images/product__photo-small2.png"
-                alt=""
-              />
-              <img
-                class="product__slider-img--small js-productImgSmall"
-                src="./images/product__photo-small3.png"
-                alt=""
-              />
-              <img
-                class="product__slider-img--small js-productImgSmall"
-                src="./images/product__photo-small4.png"
+                src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-small1.png"
                 alt=""
               />
             </div>
