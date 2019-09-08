@@ -108,7 +108,6 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
  </footer>
 </div>
  </section> 
-
 <section class="product">
   <div class="product-container">
     <header class="product__header">
@@ -175,6 +174,21 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                 src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-small1.png"
                 alt=""
               />
+              <img
+                class="product__slider-img--small js-productImgSmall"
+                src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-small2.png"
+                alt=""
+              />
+              <img
+                class="product__slider-img--small js-productImgSmall"
+                src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-small3.png"
+                alt=""
+              />
+              <img
+                class="product__slider-img--small js-productImgSmall"
+                src="<?=SITE_TEMPLATE_PATH?>/assets/images/product__photo-small4.png"
+                alt=""
+              />
             </div>
 
             <div class="swiper__button-prev product__slider-button--prev"></div>
@@ -214,4 +228,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
     </main>
   </div>
 </section>
+
+
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

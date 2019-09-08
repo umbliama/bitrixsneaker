@@ -32,7 +32,7 @@ $this->setFrameMode(true);
 				  <?= $arItem["PREVIEW_TEXT"] ?>
                   </p>
                   <button class="btn swiper-slide__order-btn">
-				 123
+                  Закажи сейчас
                   </button>
                 </div>
               </div>
