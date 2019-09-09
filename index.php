@@ -10,7 +10,10 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
  <span class="header__menu-item"></span> <span class="header__menu-item"></span> <span class="header__menu-item"></span>
 		</div>
 		<div class="header__logo">
- <img src="/local/templates/sneaker/images/logo.svg" alt="" class="logo__item">
+      <a href="#">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo.svg" alt="" class="logo__item">
+      
+      </a>
 		</div>
 		<ul class="header__nav-list">
 			<li class="header__nav-item"> <a class="header__nav-link" href="#">Кроссовки</a> </li>
@@ -93,16 +96,16 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
  </main> <footer class="header__footer">
 	<div class="header__footer-scrolldown ">
 		<h2 class="header__footer-text">перейти дальше</h2>
- <a href="#" class="header__footer-link js-scrolldown"> <img src="/local/templates/sneaker/images/header-scrolldown.svg" alt=""> </a>
+ <a href="#" class="header__footer-link js-scrolldown"> <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/header-scrolldown.svg" alt=""> </a>
 	</div>
 	<div class="swiper__pagination header__slider-pagination">
 	</div>
 	<div class="header__footer-social">
 		<ul class="header__footer-social-list">
-			<li class="header__footer-social-item"> <a href="#"> <img src="/local/templates/sneaker/images/social_vk.svg" alt=""> </a> </li>
-			<li class="header__footer-social-item"> <a href="#"> <img src="/local/templates/sneaker/images/social_fb.svg" alt=""> </a> </li>
-			<li class="header__footer-social-item"> <a href="#"> <img src="/local/templates/sneaker/images/social_twitter.svg" alt=""> </a> </li>
-			<li class="header__footer-social-item"> <a href="#"> <img src="/local/templates/sneaker/images/social_inst.svg" alt=""> </a> </li>
+			<li class="header__footer-social-item"> <a href="#"> <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/social_vk.svg" alt=""> </a> </li>
+			<li class="header__footer-social-item"> <a href="#"> <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/social_fb.svg" alt=""> </a> </li>
+			<li class="header__footer-social-item"> <a href="#"> <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/social_twitter.svg" alt=""> </a> </li>
+			<li class="header__footer-social-item"> <a href="#"> <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/social_inst.svg" alt=""> </a> </li>
 		</ul>
 	</div>
  </footer>
