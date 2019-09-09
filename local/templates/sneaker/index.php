@@ -1,40 +1,28 @@
-
-
 <section class="header">
-  <div class="header-container">
-    <header class="header__content">
-      <div class="header__menu-overlay"></div>
-      <div class="header__menu-button">
-        <span class="header__menu-item"></span>
-        <span class="header__menu-item"></span>
-        <span class="header__menu-item"></span>
-      </div>
-      <div class="header__logo">
-        <img src="./images/logo.svg" alt="" class="logo__item" />
-      </div>
-      <ul class="header__nav-list">
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Кроссовки</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Преимущества</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Отзывы</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Доставка</a>
-        </li>
-        <li class="header__nav-item">
-          <a class="header__nav-link" href="#">Контакты</a>
-        </li>
-      </ul>
-      <div class="header__phone">
-        <a class="header__phone-link" href="tel:+73822405006"
-          >8 (3822) 40-50-06</a
-        >
-      </div>
-    </header>
+<div class="header-container">
+	<div class="header__content">
+		<div class="header__menu-overlay">
+		</div>
+		<div class="header__menu-button">
+ <span class="header__menu-item"></span> <span class="header__menu-item"></span> <span class="header__menu-item"></span>
+		</div>
+		<div class="header__logo">
+      <a href="#">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo.svg" alt="" class="logo__item">
+      
+      </a>
+		</div>
+		<ul class="header__nav-list">
+			<li class="header__nav-item"> <a class="header__nav-link" href="#">Кроссовки</a> </li>
+			<li class="header__nav-item"> <a class="header__nav-link" href="#">Преимущества</a> </li>
+			<li class="header__nav-item"> <a class="header__nav-link" href="#">Отзывы</a> </li>
+			<li class="header__nav-item"> <a class="header__nav-link" href="#">Доставка</a> </li>
+			<li class="header__nav-item"> <a class="header__nav-link" href="#">Контакты</a> </li>
+		</ul>
+		<div class="header__phone">
+ <a class="header__phone-link" href="tel:+73822405006">8 (3822) 40-50-06</a>
+		</div>
+	</div>
     <main class="header__main">
     <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
@@ -108,7 +96,7 @@
       <div class="header__footer-scrolldown ">
         <h2 class="header__footer-text">перейти дальше</h2>
         <a href="#" class="header__footer-link js-scrolldown">
-          <img src="./images/header-scrolldown.svg" alt="" />
+          <img src="<? SITE_TEMPLATE_PATH ?>/assets/images/header-scrolldown.svg" alt="" />
         </a>
       </div>
       <div class="swiper__pagination header__slider-pagination"></div>
@@ -117,22 +105,22 @@
         <ul class="header__footer-social-list">
           <li class="header__footer-social-item">
             <a href="#">
-              <img src="./images/social_vk.svg" alt="" />
+				<img src="<?= SITE_TEMPLATE_PATH ?>?/assets/images/social_vk.svg" alt="" />
             </a>
           </li>
           <li class="header__footer-social-item">
             <a href="#">
-              <img src="./images/social_fb.svg" alt="" />
+              <img src="<?= SITE_TEMPLATE_PATH ?>?/assets/images/social_fb.svg" alt="" />
             </a>
           </li>
           <li class="header__footer-social-item">
             <a href="#">
-              <img src="./images/social_twitter.svg" alt="" />
+              <img src="<?= SITE_TEMPLATE_PATH ?>?/assets/images/social_twitter.svg" alt="" />
             </a>
           </li>
           <li class="header__footer-social-item">
             <a href="#">
-              <img src="./images/social_inst.svg" alt="" />
+              <img src="<?= SITE_TEMPLATE_PATH ?>?/assets/images/social_inst.svg" alt="" />
             </a>
           </li>
         </ul>

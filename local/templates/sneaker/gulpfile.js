@@ -54,7 +54,7 @@ function browserSync() {
 
 function scss() {
   return gulp
-    .src("./scss/*.scss")
+    .src("./assets/scss/*.scss")
     .pipe(sass())
     .pipe(gulp.dest("./assets/css/"));
 }
